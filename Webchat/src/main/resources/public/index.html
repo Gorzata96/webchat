@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <link rel="stylesheet" href="style.css">
+    <title>Webchat</title>
+</head>
+<body>
+<div id="chatControls">
+    <input id="message" placeholder="Type message">
+    <button id="send">Wyślij</button>
+</div>
+<ul id="channellist">
+</ul>
+<div id="newchannelcontrols">
+    <input id="newchannel" placeholder="Type message">
+    <button id="sendnewchannel">Dodaj nowy channel</button>
+    <button id="leavechannel">Opuść channel</button>
+
+</div>
+<div id="channelname"></div>
+<ul id="userlist">
+</ul>
+<div id="chat"></div>
+<script src="websocket.js"></script>
+<div id="userdialog">
+    <div id="userdialogc">
+        <p>Podaj imię: </p>
+        <input id="username" placeholder="Wpisz imię">
+        <button id="sendusername">Wyślij</button>
+    </div>
+</div>
+</body>
+</html>
